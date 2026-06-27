@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    background-color: #ecc2ff;
+    height: 100vh;
+}
+
+button{
+    position: absolute;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    border-radius: 10%;
+    border-color: rgb(194, 199, 124);
+    top: 43%;
+    left: 2%;
+    background-color: rgb(249, 255, 163);
+    z-index: 2;
+}
+
+#puzzle-area{
+    background-color: #ffffff;
+    width: 280px;
+    height: 280px;
+    top: 0;
+    right: 20%;
+    position: absolute;
+    border: black;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#piece-container{
+    background-color: #ffffff;
+    width: 30%;
+    top: 0;
+    position: absolute;
+    height: 40%;
+    border: black;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.jigsaw-piece{
+    position: relative;
+}
+
+.jigsaw{
+    position: absolute;
+    z-index: 1;
+    transition: transform 0.5s ease;
+}
+
+.jigsaw:hover{
+    box-shadow: 0 0 2rem 0.3rem rgb(229, 236, 159);
+}
+
